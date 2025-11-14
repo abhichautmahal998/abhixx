@@ -2,18 +2,18 @@
 name: githubaction
 on:
     push:
-    branches:
+     branches:
             -main
 
 
 
 jobs:
     demo-job: 
-        runs-on: ubuntu-latest
+         runs-on: ubuntu-latest
 
-    steps:
-    - name: checkout code    
-     uses: actions/checkout@v2
+         steps:
+             - name: checkout code    
+               uses: actions/checkout@v2
 
-    - name: print message
-      runs: echo "welcome tu xx"
+             - name: print message
+               run: echo "welcome tu xx"
