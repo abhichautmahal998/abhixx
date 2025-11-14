@@ -4,10 +4,8 @@ on:
     push:
      branches:
             -main
-
-
-
-jobs:
+            
+sjobs:
     demo-job: 
          runs-on: ubuntu-latest
 
