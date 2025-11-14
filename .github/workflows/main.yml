@@ -1,1 +1,18 @@
 
+name: githubaction
+on:
+    
+    branches:
+            -main
+
+
+
+jobs:
+    demo-job: ubentu-latest
+
+    steps:
+      -name:   checkout code    uses: action/checkout@v2
+
+    name: print message
+             
+    \runs: echo "welcome tu xx"
