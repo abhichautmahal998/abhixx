@@ -5,7 +5,7 @@ on:
      branches:
             -main
             
-sjobs:
+jobs:
     demo-job: 
          runs-on: ubuntu-latest
 
