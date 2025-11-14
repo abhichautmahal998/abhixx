@@ -1,11 +1,9 @@
 
-name: githubaction
+name: githubactions
 on:
     push:
      branches:
-            -main
-
-            
+            -main       
 jobs:
     demo-job: 
          runs-on: ubuntu-latest
